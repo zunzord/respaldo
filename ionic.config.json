@@ -1,0 +1,7 @@
+{
+  "name": "myImageProcessingApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
