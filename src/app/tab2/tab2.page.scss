@@ -1,0 +1,45 @@
+/*ion-list {
+    --border-width: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ion-img {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  ion-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  h2 {
+    margin-bottom: 15px;
+  }*/
+
+  ion-header {
+    --background: #fff; // Asegúrate de que el header tenga fondo blanco para un look limpio
+  }
+  
+  ion-toolbar {
+    --background: #fff; // Fondo blanco para la barra de herramientas
+  }
+  
+  ion-title {
+    color: #000; // Texto oscuro para mayor contraste
+  }
+  
+  ion-content {
+    --background: #f0f0f5; // Un fondo ligeramente gris para el contenido puede hacer que se sienta más espacioso y limpio
+  }
+  
+  ion-button {
+    --background: #007aff; // Un color azul que es común en las interfaces de iOS
+    --color: #fff; // Texto blanco para el botón
+  }
