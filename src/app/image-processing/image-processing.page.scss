@@ -1,0 +1,41 @@
+ion-content {
+    --background: #fff; /* Asegúrate de que el fondo no distraiga */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 60vh; /* Ajusta la altura según necesites */
+    margin: 20px 0;
+  }
+  
+  .load-image-button {
+    margin-top: 20px;
+    --background: var(--ion-color-primary);
+  }
+  
+  .brightness-control-container {
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red; /* Añade un borde para visualizar el contenedor */
+  }
+  
+  
+  .control-icon {
+    font-size: 30px;
+    margin: 10px 0;
+    color: black; /* O cualquier color que contraste con tu fondo */
+  }
+  
+  
+  .close-control {
+    margin-top: 15px;
+  }
+  

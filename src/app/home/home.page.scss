@@ -25,3 +25,27 @@
 #container a {
   text-decoration: none;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.custom-button {
+  --background: linear-gradient(145deg, #6e3b6e, #9b4d9b);
+  --box-shadow: 5px 5px 10px #5e325e,
+               -5px -5px 10px #a85ea8;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  text-transform: uppercase;
+  transition: transform 0.3s ease;
+
+  &:active {
+    --box-shadow: inset 5px 5px 10px #5e325e,
+                 inset -5px -5px 10px #a85ea8;
+    transform: translateY(2px);
+  }
+}

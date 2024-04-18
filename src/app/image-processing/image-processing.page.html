@@ -1,0 +1,16 @@
+<ion-content>
+  <input type="file" #fileInput style="display: none" (change)="loadImage($event)" accept="image/*">
+  
+  <div #imagenContainer></div>
+  
+  <ion-button (click)="fileInput.click()">
+    Cargar Imagen
+  </ion-button>
+
+  <!-- Contenedor de Controles de Brillo -->
+  <div *ngIf="showBrightnessControl" class="brightness-control-container">
+    <ion-icon name="arrow-up-outline" class="control-icon" (click)="increaseBrightness()"></ion-icon>
+    <ion-icon name="arrow-down-outline" class="control-icon" (click)="decreaseBrightness()"></ion-icon>
+    <ion-button class="close-control" (click)="showBrightnessControl = false">Cerrar</ion-button>
+  </div>
+</ion-content>

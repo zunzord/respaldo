@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'image-processing',
+    loadChildren: () => import('./image-processing/image-processing.module').then( m => m.ImageProcessingPageModule)
+  },
 ];
 
 @NgModule({
